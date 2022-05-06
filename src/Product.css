@@ -9,21 +9,22 @@
     max-height: 400px;
     min-width: 100px;
     background-color: white;
-    z-index: 1 ;
-
-
+    z-index: 1;
 }
-.product__rating{
+
+.product__rating {
     display: flex;
-    
+    flex-direction: row;
+    align-content: center;
+    margin-top: auto;
 }
 
-.product img{
+.product img {
     max-height: 200px;
     width: 100%;
     object-fit: contain;
     margin-bottom: 15px;
-
+    margin-top: 35px;
 }
 
 .product button {
@@ -33,11 +34,13 @@
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
 }
-.product__price{
+
+.product__price {
     margin-top: 5px;
 }
 
-.product__info{
+.product__info {
     height: 100px;
     margin-bottom: 15px;
+    margin-top: 1px;
 }
